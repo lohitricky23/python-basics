@@ -1,0 +1,28 @@
+1. WRITE A PYTHON PROGRAM TO FIND THOSE NUMBERS WHICH ARE DIVISIBLE BY 7 BUT ARE NOT MULTIPLE OF 5, BETWEEN 2000 AND 3200 (BOTH INCLUDED). THE NUMBER OBTAINED SHOILD BE PRINTED IN A COMMA- SEPEARATED SEQUENCE ON A SINGLE LINE.
+
+ nl=[]
+for x in range(2000, 3201):
+    if (x%7==0) and (x%5!=0):
+        nl.append(str(x))
+print (','.join(nl))
+
+
+
+2. WRITE A PYTHON PROGRAM TO ACCEPT THE USER'S FIRST AND LAST NAME AND THEN GETTING THEM PRINTED IN THE THE REVERSE ORDER WITH A SPACE BETWEEN FIRST NAME AND LAST NAME.
+
+fname = input("Input your First Name : ")
+lname = input("Input your Last Name : ")
+print (lname+  " " +fname)
+
+
+
+
+3. WRITE A PYTHON PROGRAM TO FIND THE VOLUME OF A SPHERE WITH DIAMETER 12 CM.
+
+
+from math import pi
+r=6
+print('Volume of a sphere:',((4/3)*pi*(r**3)) )
+
+
+
